@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free hotel booking">
+    <meta name="keywords" content="Hotel booking, Amazing places">
+    <meta name="author" content="Jasper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="icon" href="../images/asd2.jpg" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+
+    <title>Senda</title>
+  </head>
+  <body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li>
+        <a href="#!">House 1</a>
+      </li>
+      <li>
+        <a href="#!">House 2</a>
+      </li>
+      <li>
+        <a href="#!">House 3</a>
+      </li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+      <li>
+        <a href="#!">Page 1</a>
+      </li>
+      <li>
+        <a href="#!">Page 2</a>
+      </li>
+      <li>
+        <a href="#!">Page 3</a>
+      </li>
+    </ul>
+    <nav class="nav-bar-1">
+      <div class="nav-wrapper">
+        <a href="#!" class=" brand-logo">Senda</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="fas fa-bars"></i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class="" href="#">Home</a>
+          </li>
+          <li class="expand">
+            <a class="house dropdown-trigger" href="#" data-target="dropdown1">House <i class="fas fa-chevron-down"></i>
+            </a>
+          </li>
+          <li class="expand">
+            <a class="house dropdown-trigger" href="#" data-target="dropdown2">Pages <i class="fas fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#">Contact</a>
+          </li>
+          <li>
+            <a class="" href="#HOTELS">About</a>
+          </li>
+          <li class="expand">
+            <a class="house" href="contact.html">
+              <i class="fa-solid fa-phone"></i> +63 0946 081 2198</a>
+          <li>
+            <button class="btn">Submit</button>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a class="" href="#">Home</a>
+      </li>
+      <li>
+        <a class="house" href="#">House</a>
+      </li>
+      <li>
+        <a class="house" href="#">Pages</a>
+      </li>
+      <li>
+        <a class="" href="#">Contact</a>
+      </li>
+      <li>
+        <a class="" href="#HOTELS">About</a>
+      </li>
+    </ul>
+    <main>
+      <section class="bg">
+        <div class="container-2">
+          <div class="title">
+            <div class="divedent">
+              <hr class="divider">
+              <h2>We Always Provide Good Service For You</h2>
+              <hr class="divider">
+              <h1>Find Out Your Perfect <br> Places For Living </h1>
+            </div>
+            <div class="dropdown-container">
+              <div class="dropdown">
+                <div class="select">
+                  <span class="selected">City</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                  <li>Cabuyao</li>
+                  <li>Calamba</li>
+                  <li>San Pedro</li>
+                  <li>Sta. Rosa</li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <div class="select">
+                  <span class="selected">Rooms</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                  <li>Room 1</li>
+                  <li>Room 2</li>
+                  <li>Room 3</li>
+                  <li>Room 4</li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <div class="select">
+                  <span class="selected">Category</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                  <li>Category 1</li>
+                  <li>Category 2</li>
+                  <li>Category 3</li>
+                  <li>Category 4</li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <div class="select">
+                  <span class="selected">Buy/Sell</span>
+                  <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                  <li>Room 23</li>
+                  <li>Room34</li>
+                  <li>Room 35</li>
+                  <li>Room 36</li>
+                </ul>
+              </div>
+              <button class="btn-cover">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>search </button>
+            </div>
+          </div>
+          <!-- CARD SECTION -->
+          <div class="row">
+            <div class="col s12 m6 l3 hide-on-med-and-down ">
+              <div class="card">
+                <div class="card-content">
+                  <div class="icon-container">
+                    <img src="/images/shopping-center.png" alt="Home" class="homer responsive-img">
+                  </div>
+                  <span class="card-title center-align">Malls</span>
+                  <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat, rem numquam neque asperiores aspernatur quia reiciendis magnam quo id officia esse obcaecati.</p>
+                </div>
+                <div class="card-action center-align">
+                  <button class="btn">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l3 hide-on-med-and-down">
+              <div class="card">
+                <div class="card-content">
+                  <div class="icon-container">
+                    <img src="/images/home-2.png" alt="Home" class="homer responsive-img">
+                  </div>
+                  <span class="card-title center-align">Home</span>
+                  <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat, rem numquam neque asperiores aspernatur quia reiciendis magnam quo id officia esse obcaecati.</p>
+                </div>
+                <div class="card-action center-align">
+                  <button class="btn">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l3 hide-on-med-and-down">
+              <div class="card">
+                <div class="card-content">
+                  <div class="icon-container">
+                    <img src="/images/company.png" alt="Home" class="homer responsive-img">
+                  </div>
+                  <span class="card-title center-align">Office</span>
+                  <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat, rem numquam neque asperiores aspernatur quia reiciendis magnam quo id officia esse obcaecati.</p>
+                </div>
+                <div class="card-action center-align">
+                  <button class="btn">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l3 hide-on-med-and-down">
+              <div class="card">
+                <div class="card-content">
+                  <div class="icon-container">
+                    <img src="/images/hotel.png" alt="Home" class="homer responsive-img">
+                  </div>
+                  <span class="card-title center-align">Hotels</span>
+                  <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, fugiat, rem numquam neque asperiores aspernatur quia reiciendis magnam quo id officia esse obcaecati.</p>
+                </div>
+                <div class="card-action center-align">
+                  <button class="btn">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- HOTELS SECTION  -->
+      <section class="hotel-section" id="HOTELS">
+        <div class="wrapper-23">
+          <h2>OUR BEST HOTELS FOR YOU </h1>
+            <div class="card-container-1">
+              <div class="card-2">
+                <div class="card-image-2">
+                  <img src="/images/picolo-hotel.jpg" alt="">
+                </div>
+                <div class="card-content-2">
+                  <div class="card-details-row-1">
+                    <div class="titlee">
+                      <h2>Criticiy Eshie Hotel</h2>
+                      <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p>Roundtrip flight included</p>
+                      <p>Manila(MNL) to Caticlan (MPH)</p>
+                    </div>
+                    <div class="pricing">
+                      <p>
+                        <span class="old-price">P13,003</span>
+                      </p>
+                      <p>
+                        <span class="new-price">P10,069</span>
+                      </p>
+                      <p>
+                        <span class="per-person">per person</span>
+                      </p>
+                      <p>
+                        <span class="per-person">5 Jan - Jan 8</span>
+                      </p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="card-details-row-2">
+                    <p class="new-price">8 / 10 Very Good! (227 reviews)</p>
+                    <p>
+                      <span class="per-person">Quiet and private, beautiful views.</span>
+                    <p>
+                      <span class="per-person">Reviewed on May 28, 2023</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container-1">
+              <div class="card-2">
+                <div class="card-image-2">
+                  <img src="/images/hotel-2.jpg" alt="">
+                </div>
+                <div class="card-content-2">
+                  <div class="card-details-row-1">
+                    <div class="titlee">
+                      <h2>Henann Crystal Sands Resort</h2>
+                      <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p>Free Wi-Fi</p>
+                      <p>Buffet Breakfast</p>
+                    </div>
+                    <div class="pricing">
+                      <p>
+                        <span class="old-price">P15,000</span>
+                      </p>
+                      <p>
+                        <span class="new-price">P12,500</span>
+                      </p>
+                      <p>
+                        <span class="per-person">per night</span>
+                      </p>
+                      <p>
+                        <span class="per-person">Available now</span>
+                      </p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="card-details-row-2">
+                    <p class="new-price">9 / 10 Excellent! (432 reviews)</p>
+                    <p>
+                      <span class="per-person">Great location, friendly staff.</span>
+                    <p>
+                      <span class="per-person">Reviewed on October 15, 2023</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container-1">
+              <div class="card-2">
+                <div class="card-image-2">
+                  <img src="/images/hotel-3.jpg" alt="">
+                </div>
+                <div class="card-content-2">
+                  <div class="card-details-row-1">
+                    <div class="titlee">
+                      <h2>The Lind Boracay</h2>
+                      <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <p>Infinity Pool</p>
+                      <p>Spa and Wellness Center</p>
+                    </div>
+                    <div class="pricing">
+                      <p>
+                        <span class="old-price">P25,000</span>
+                      </p>
+                      <p>
+                        <span class="new-price">P20,000</span>
+                      </p>
+                      <p>
+                        <span class="per-person">per night</span>
+                      </p>
+                      <p>
+                        <span class="per-person">Available now</span>
+                      </p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="card-details-row-2">
+                    <p class="new-price">10 / 10 Exceptional! (765 reviews)</p>
+                    <p>
+                      <span class="per-person">A truly luxurious experience.</span>
+                    <p>
+                      <span class="per-person">Reviewed on November 5, 2023</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container-1">
+              <div class="card-2">
+                <div class="card-image-2">
+                  <img src="/images/hotel-4.jpg" alt="">
+                </div>
+                <div class="card-content-2">
+                  <div class="card-details-row-1">
+                    <div class="titlee">
+                      <h2>Shangri-La Boracay</h2>
+                      <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p>Beachfront Access</p>
+                      <p>Water Sports and Activities</p>
+                    </div>
+                    <div class="pricing">
+                      <p>
+                        <span class="old-price">P18,500</span>
+                      </p>
+                      <p>
+                        <span class="new-price">P15,750</span>
+                      </p>
+                      <p>
+                        <span class="per-person">per night</span>
+                      </p>
+                      <p>
+                        <span class="per-person">Available now</span>
+                      </p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="card-details-row-2">
+                    <p class="new-price">9 / 10 Excellent! (543 reviews)</p>
+                    <p>
+                      <span class="per-person">A perfect beach getaway.</span>
+                    <p>
+                      <span class="per-person">Reviewed on December 10, 2023</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- REVIEWS -->
+      <section class="reviews">
+        <div class="review-header">
+          <h2>What Our Client says about us...</h2>
+          <p>At Senda, our clients' satisfaction is our most valued reward. We take pride in the trust they place in us to handle their real estate needs.</p>
+        </div>
+        <div class="review-container">
+          <div class="wrapper-6">
+            <div class="wrapper-img">
+              <div class="card-image-6">
+                <img src="/images/385520490_645871917673297_6282308033257153832_n.jpg" alt="" class="responsive-img">
+                <div class="testimonial-name">
+                  <h2>Gusion Moham</h2>
+                  <p class="flow-text">CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-6">
+              <p>"I couldn't be happier with the outstanding service provided by SENDA. From the moment I reached out, their team of professionals went above and beyond to guide me through the complex world of real estate. Their expertise and personalized approach made me feel confident in every decision, and I'm now the proud owner of my dream home. </p>
+            </div>
+          </div>
+          <div class="wrapper-6">
+            <div class="wrapper-img">
+              <div class="card-image-6">
+                <img src="/images/asd2.jpg" alt="" class="responsive-img">
+                <div class="testimonial-name">
+                  <h2>Jodel Cruz</h2>
+                  <p class="flow-text">CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-6">
+              <p>"I couldn't be happier with the outstanding service provided by SENDA. From the moment I reached out, their team of professionals went above and beyond to guide me through the complex world of real estate. Their expertise and personalized approach made me feel confident in every decision, and I'm now the proud owner of my dream home. </p>
+            </div>
+          </div>
+          <div class="wrapper-6">
+            <div class="wrapper-img">
+              <div class="card-image-6">
+                <img src="/images/pexels-fred-gonzales-13096925.jpg" alt="" class="responsive-img">
+                <div class="testimonial-name">
+                  <h2>Jashrine Mati</h2>
+                  <p class="flow-text">CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-6">
+              <p>"I couldn't be happier with the outstanding service provided by SENDA. From the moment I reached out, their team of professionals went above and beyond to guide me through the complex world of real estate. Their expertise and personalized approach made me feel confident in every decision, and I'm now the proud owner of my dream home. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#"><h1 class="footer-brand">SENDA</h1></a>
+          
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#HOTELS">About Us</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <p>Contact Us:</p>
+          <p>Email: senda@yourcompany.com</p>
+          <p>Phone: (+63) 946 081 2574</p>
+        </div>
+      </div>
+      <div class="footer-bottom"> &copy; 2023 Senda. All rights reserved. </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
